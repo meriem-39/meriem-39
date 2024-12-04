@@ -1,0 +1,52 @@
+int main() {
+    char matrix[5][5] = {
+        {'1', '2', '3', '4', '5'},
+        {'7', 'a', 'c', '8', 'd'},
+        {'5', '6', '9', 'z', '8'},
+        {'2', '9', 'p', 'n', '3'},
+        {'t', 'm', 'k', '3', '4'}
+    };
+
+    // A
+    printf("matrice:\n");
+    for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < 5; j++) {
+            printf("%c ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+
+    // B
+    printf("\n un tableau compose de lignes avec un index pair:\n");
+    for (int i = 0; i < 5; i += 2) {
+        for (int j = 0; j < 5; j++) {
+            printf("%c ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+
+    // C
+    printf("\n un tableau compose de lignes avec un index inpair :\n");
+    for (int i = 0; i < 5; i++) {
+        for (int j = 1; j < 5; j += 2) {
+            printf("%c ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+
+    // D
+    printf("\n diagonal de gauche a droite:\n");
+    for (int i = 0; i < 5; i++) {
+        printf("%c ", matrix[i][i]);
+    }
+    printf("\n");
+
+    // E
+    printf("\n diagonal de droite a gauche:\n");
+    for (int i = 0; i < 5; i++) {
+        printf("%c ", matrix[i][4 - i]);
+    }
+    printf("\n");
+
+    return 0;
+}
