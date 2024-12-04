@@ -1,0 +1,25 @@
+int main(){
+int M[40][40],i,j,N;
+printf("donner N:");
+scanf("%d",&N);
+for(i=0;i<N;i++){
+    for(j=0;j<N;j++){
+        printf("T[%d][%d]=",i,j); 
+        scanf("%d",&M[i][j]); 
+}
+}
+for(i=0;i<N;i++){
+    for(j=i+1;j<N;j++){
+      int temp= M[i][j];
+          M[i][j]=M[j][i];
+          M[j][i]= temp;
+}
+}
+for(i=0;i<N;i++){
+    for(j=0;j<N;j++){
+         printf("%d\t",M[i][j]);
+}
+      printf("\n");
+}
+return 0;
+}
