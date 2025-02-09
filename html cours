@@ -1,0 +1,142 @@
+<!DOCTYPE html> <!--important-->
+<html>
+    <head>
+        <title>
+            welcome to my first project 
+        </title>
+        <meta charset="UTF-8" />
+        <!-- comment -->
+        <meta name="project" content="this is our project"/> 
+        <style></style> <!-- css -->
+        <script></script> <!-- java script -->
+    </head>
+    <body>
+        hello
+        <!-- jffd -->
+        <h1>book store</h1> <!-- long title -->
+        <h2>charset</h2> <!-- smalle title -->
+        <p> chapter of the first ;project </p>
+        <p>this is my first <b>project</b> </p><!--bold-->
+        <p>this is my first <strong>project</strong> </p><!--strong -->
+        <p>this is my first <i>project</i> </p><!--italic (em) emphasized-->
+        <p>this is my first <mark>project</mark> </p><!--marked text -->
+        <p>this is my first <u>project</u> </p><!--inderligne -->
+        <p>this is my first <small>project</small> </p><!--smaller text-->
+        <p>this is my first <del>project</del> </p><!--deleted text-->
+        <p>this is my first <ins>project</ins> </p><!--اضافة نص -->
+        <p>h <sub>2</sub>o</p><!--sub sup-->
+        <a href="https://google.com" target="_blank" title="go to google "> google</a>
+        <a href="https://facebook.com"> facebook</a>
+        <a href="test.html" title="go to test page "> test </a>
+        
+        <a href="#meriem" title="go to test meriem "> meriem paragraph </a>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p id="meriem"> rezzag chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <p> chapter of the first ;project </p>
+        <img src="272098ff-4515-4263-a71d-b137962f7044.jpg" alt="">
+        <ul><li> html<p> </p> </li> <!--list items --> 
+            <li> css </li>
+            <li> 
+                java 
+                <ul>
+                    <li>
+                         angular
+                         <ul>
+                             <li>learn </li>
+                         </ul>
+                         </li>
+                    <li>reactjs </li>
+                </ul>
+                 </li>
+        </ul> <!--unorder list ...-->
+        <ol reversed start="100" type="1"> <!-- reversed يعكس الترقيم   type بداية الترقيم -->
+            <li value="50"> name </li>
+            <li> adress</li>
+            <li> id </li>
+        </ol> <!--order list 1 2 3 4 ... -->
+        <dl> <!--description list -->
+            <dt> html </dt> <!-- term-->
+            <dd> language of the web </dd><!-- d term-->
+            <dd> thre first lan </dd>
+            <dt> css</dt>
+            <dd> lang of the visuals </dd>
+        </dl>
+        <table border="1" >
+            <caption>students markes</caption>
+            <!--
+                 thead سطر المعلومات 
+                 tbody 
+                 tfoot 
+                 td data cell
+                 tr row
+                 th table header cell
+            -->
+            <thead> 
+              <tr> 
+                  <td> first n</td>
+                  <td> last </td>
+                  <td> markes </td>
+              </tr>
+            </thead>
+            <tbody>
+             <tr>
+                <td>meriem</td>
+                <td>batoul </td>
+                <td>40</td>
+             </tr>
+             
+             <tr>
+                <td>meriem</td>
+                <td>batoul </td>
+                <td>40</td>
+             </tr>
+             
+             <tr>
+                <td>meriem</td>
+                <td>batoul </td>
+                <td>40</td>
+             </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    
+                    <td colspan="2"> total </td> <!-- colspan للدمج -->
+                    <td>160 </td>
+
+                </tr>
+            </tfoot>
+            
+            <tr> 
+                <th> first n</th>
+                <th> last </th>
+                <th> markes </th>
+            </tr>
+        </table>
+    <span> markes </span> <!--لتمييز عنصر تستعمل في css -->
+    <br> test 
+    <hr/> <!-- اضافة خط للفصل-->
+    <p>test again </p>
+    <div class="book">
+        <h3>html </h3>
+        <p> learn </p>
+    </div>
+    <div>this is my &lt;p&gt; div &amp;</div>
+
+
+    </body>
+</html>
